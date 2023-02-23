@@ -2,7 +2,7 @@ import React from "react";
 import { directors } from "../data";
 
 function Directors() {
-  console.log("Directors:", directors);
+  // console.log("Directors:", directors);
   return (
     <>
       <h1>Directors Page</h1>

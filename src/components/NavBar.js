@@ -7,9 +7,10 @@ const styleLink = {
   marginRight: "1em",
   color: "white",
   borderRadius: ".5em",
+  textDecoration: "none",
 };
 
-const activeLink = { background: "#4F4F4F" };
+const activeLink = { background: "#5F5F5F" };
 
 function NavBar() {
   return (
