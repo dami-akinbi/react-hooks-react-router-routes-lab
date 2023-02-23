@@ -6,9 +6,13 @@ import Actors from "./Actors";
 import Directors from "./Directors";
 import Movies from "./Movies";
 
+const appStyles = {
+  margin: "1em",
+};
+
 function App() {
   return (
-    <>
+    <div style={appStyles}>
       <NavBar />
       <Switch>
         <Route exact path="/">
@@ -24,7 +28,7 @@ function App() {
           <Movies />
         </Route>
       </Switch>
-    </>
+    </div>
   );
 }
 

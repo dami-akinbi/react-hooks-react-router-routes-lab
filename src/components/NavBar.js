@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const styleLink = {
   padding: ".75em",
   background: "black",
-  margin: "1em",
+  marginRight: "1em",
   color: "white",
   borderRadius: ".5em",
 };
